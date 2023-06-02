@@ -16,9 +16,8 @@ return {
       --   ["remote3"] = "github_user", -- GitHub user assume AstroNvim fork
     },
   },
-
   -- Set colorscheme to use
-  colorscheme = "catppuccin",
+  colorscheme = "melange",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
@@ -80,5 +79,7 @@ return {
     --     ["~/%.config/foo/.*"] = "fooscript",
     --   },
     -- }
+    
+  vim.opt.termguicolors = true
   end,
 }

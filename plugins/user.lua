@@ -16,5 +16,9 @@ return {
       require("catppuccin").setup {}
     end,
   },
+  {
+      "savq/melange-nvim",
+      name = "melange-nvim",
+  },
 
 }
