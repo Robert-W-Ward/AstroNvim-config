@@ -40,7 +40,7 @@ return {
     ["<M-l>"] = {"<Right>",desc = "Move Right in insert mode"},
 
 
-    ["<Left>"] = {"<Nop",desc = "Disable Left in insert mode"},
+    ["<Left>"] = {"<Nop>",desc = "Disable Left in insert mode"},
     ["<Down>"] = {"<Nop>",desc = "Disable Down in insert mode"},
     ["<Up>"] = {"<Nop>",desc = "Disable Up in insert mode"},
     ["<Right>"] = {"<Nop>",desc = "Disable Right in insert mode"},
