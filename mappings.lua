@@ -34,9 +34,15 @@ return {
   },
   i = {
     
-    ["<C-M-h>"] = {"<Left>",desc = "Move Left in insert mode"},
-    ["<C-M-j>"] = {"<Down>",desc = "Move Down in insert mode"},
-    ["<C-M-k>"] = {"<Up>",desc = "Move Up in insert mode"},
-    ["<C-M-l>"] = {"<Right>",desc = "Move Right in insert mode"},
+    ["<M-h>"] = {"<Left>",desc = "Move Left in insert mode"},
+    ["<M-j>"] = {"<Down>",desc = "Move Down in insert mode"},
+    ["<M-k>"] = {"<Up>",desc = "Move Up in insert mode"},
+    ["<M-l>"] = {"<Right>",desc = "Move Right in insert mode"},
+
+
+    ["<Left>"] = {"<Nop",desc = "Disable Left in insert mode"},
+    ["<Down>"] = {"<Nop>",desc = "Disable Down in insert mode"},
+    ["<Up>"] = {"<Nop>",desc = "Disable Up in insert mode"},
+    ["<Right>"] = {"<Nop>",desc = "Disable Right in insert mode"},
   }
 }
